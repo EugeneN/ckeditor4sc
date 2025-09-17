@@ -27,7 +27,7 @@ const headers = features?.deep_public_plugin_serve
     ];
 const public_user_role = features?.public_user_role || 10;
 
-const CKEditor4 = {
+const CKEditor4sc = {
   type: "HTML",
   isEdit: true,
   blockDisplay: true,
@@ -280,8 +280,8 @@ const dependencies = ["@saltcorn/html"];
 
 module.exports = {
   sc_plugin_api_version: 1,
-  fieldviews: { CKEditor4 },
-  plugin_name: "ckeditor4",
+  fieldviews: { CKEditor4sc },
+  plugin_name: "ckeditor4sc",
   headers,
   dependencies,
   ready_for_mobile: true,
