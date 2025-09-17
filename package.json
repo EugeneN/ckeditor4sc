@@ -1,5 +1,5 @@
 {
-  "name": "@saltcorn/ckeditor4sc",
+  "name": "ckeditor4sc",
   "version": "0.3.1",
   "description": "CKEditor4 editor for HTML fields",
   "main": "index.js",
