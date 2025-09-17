@@ -113,6 +113,8 @@ const CKEditor4 = {
         : attrs.toolbar === "Document"
         ? [
             { name: "basicstyles", groups: ["basicstyles", "cleanup"] },
+            { name: "links", groups: ["links"] },
+            { name: "insert", groups: ["insert"] },
 
             { name: "clipboard", groups: ["clipboard", "undo"] },
             {
@@ -132,6 +134,8 @@ const CKEditor4 = {
                 "paragraph",
               ],
             },
+            { name: "justify", groups: ["justify"] },
+            { name: "font", groups: ["font"] },
             { name: "styles", groups: ["styles"] },
             { name: "colors", groups: ["colors"] },
             { name: "others", groups: ["others"] },
@@ -159,8 +163,8 @@ const CKEditor4 = {
               ],
             },
             { name: "justify", groups: ["justify"] },
-            { name: "styles", groups: ["styles"] },
             { name: "font", groups: ["font"] },
+            { name: "styles", groups: ["styles"] },
             { name: "colors", groups: ["colors"] },
             { name: "others", groups: ["others"] },
           ];
